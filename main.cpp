@@ -356,8 +356,8 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"dnsseed.pushiplay.pw", "dnsseed.pushiplay.pw", ""};
-static const string testnet_seeds[] = {"testnet-dnsseed.pushiplay.pw", "testnet-dnsseed.pushiplay.pw", ""};
+static const string mainnet_seeds[] = {"dnsseed.pushiplay.pw", "dnsseed.guardcoin.trade", "dnsseed.superpool.win", ""};
+static const string testnet_seeds[] = {"testnet-dnsseed.pushiplay.pw", "testnet-dnsseed.guardcoin.trade", "testnet-dnsseed.superpool.win", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
