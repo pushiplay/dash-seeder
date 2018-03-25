@@ -1,3 +1,6 @@
 *.o
 dnsseed*
 dnsstats.log
+.kdev4/
+nbproject/
+pushi-seeder.kdev4
