@@ -12,11 +12,11 @@
 
 #define MIN_RETRY 1000
 
-#define REQUIRE_VERSION 70210
+#define REQUIRE_VERSION 70211
 
 static inline int GetRequireHeight(const bool testnet = fTestNet)
 {
-    return testnet ? 0 : 37512;
+    return testnet ? 0 : 47249;
 }
 
 std::string static inline ToString(const CService &ip) {
